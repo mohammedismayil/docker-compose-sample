@@ -33,7 +33,7 @@ jobs:
     - name: Starting the Docker compose
       run: |
          ssh staging 'git pull https://github.com/mohammedismayil/docker-compose-sample.git'
-         ssh staging 'echo okok'
+         ssh staging 'echo okkok'
     
     
 # ssh staging 'rm -rfv reactMERN'

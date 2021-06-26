@@ -34,6 +34,7 @@ jobs:
       run: |
          ssh staging 'docker login --username "${{ secrets.Docker_username }}" --password "${{ secrets.Docker_password }}"'
          ssh staging 'git pull https://github.com/mohammedismayil/docker-compose-sample.git'
+         ssh staging 'echo okok'
     
     
 # ssh staging 'rm -rfv reactMERN'
